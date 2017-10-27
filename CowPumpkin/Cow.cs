@@ -11,5 +11,14 @@ using System.Threading.Tasks;
 
 namespace CowPumpkin {
     class Cow {
+        /// <summary>
+        /// The breed of the cow
+        /// </summary>
+        public Breed breed { get; set; }
+
+        public Cow(Breed breed) {
+            this.breed = breed;
+        }
+
     }
 }

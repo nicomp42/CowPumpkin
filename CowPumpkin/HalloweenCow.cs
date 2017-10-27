@@ -10,6 +10,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CowPumpkin {
-    class HalloweenCow {
+    class HalloweenCow : Cow, Pumpkin {
+        public HalloweenCow(Breed breed) : base(breed) {
+
+        }
     }
 }
