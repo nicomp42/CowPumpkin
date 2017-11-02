@@ -2,7 +2,7 @@
  * A halloween-themed demostration of interfaces
  * Bill Nicholson 
  * nicholdw@ucmail.uc.edu
- * Ryan Bunker!
+ * Ryan Bunker!!
  * *******************************************************/
 using System;
 using System.Collections.Generic;
