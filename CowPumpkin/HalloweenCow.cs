@@ -14,5 +14,15 @@ namespace CowPumpkin {
         public HalloweenCow(Breed breed) : base(breed) {
 
         }
+        public void Decompose()
+        {
+
+        }
+        public void Carve(String shape)
+        {
+
+        }
+
     }
+
 }
