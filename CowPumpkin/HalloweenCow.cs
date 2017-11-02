@@ -14,5 +14,24 @@ namespace CowPumpkin {
         public HalloweenCow(Breed breed) : base(breed) {
 
         }
+
+        public bool Decompose()
+        {
+            bool resultOfDecomposition = false;
+            if ((new Random()).Next() % 2 == 1) { resultOfDecomposition = true; }
+            return resultOfDecomposition;
+        }
+
+        public String Carve(String Shape)
+        {
+            String resultShape;
+            bool shapeDesign = false;
+            if ((new Random()).Next() % 2 == 1){ shapeDesign = true; }
+            if (shapeDesign == true){ resultShape = "Spooky Face "; }
+            else{ resultShape = "Cat Face "; }
+
+            return resultShape;
+        }
+
     }
 }

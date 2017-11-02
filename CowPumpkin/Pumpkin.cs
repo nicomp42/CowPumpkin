@@ -17,9 +17,9 @@ namespace CowPumpkin {
         /// <summary>
         /// Decompose into an amorphous blob. This happens shortly after Halloween to all pumpkins
         /// </summary>
-        void Decompose();
+        bool Decompose();
 
-        void Carve(String shape);
+        String Carve(String shape);
 
         
     }
