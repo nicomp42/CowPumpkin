@@ -21,7 +21,8 @@ namespace CowPumpkin {
         }
 
         public void Decompose() {
-            for (int i = 0; i > 14; i++) {
+            Console.WriteLine("The CowPumpkin has begun decomposing");
+            for (int i = 0; i < 14; i++) {
                 Console.WriteLine("The pumpkin is " + i + " days decomposed.");
             }
         }
