@@ -21,11 +21,13 @@ namespace CowPumpkin {
         public void Carve(string shape)
         {
             Console.WriteLine("HalloweenCow is now Carved");
+            //TODO: Flesh out this method
         }
 
         public void Decompose()
         {
             Console.WriteLine("HalloweenCow is now a lump of mush");
+            //TODO: Flesh out this method
         }
     }
 }
