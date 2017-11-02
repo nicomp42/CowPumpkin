@@ -2,30 +2,37 @@
  * A halloween-themed demostration of interfaces
  * Bill Nicholson 
  * nicholdw@ucmail.uc.edu
- *  * edited by Bradley Bruce
+ * modified by Jeremy Ring 1 November 2017
  * *******************************************************/
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//
-namespace CowPumpkin {
-    class HalloweenCow : Cow, Pumpkin {
-        public HalloweenCow(Breed breed) : base(breed) {
 
-        }
-
-
-        //added these methods to fix the missing methods from pumkin
-        public void Carve(string shape)
+namespace CowPumpkin
+{
+    class HalloweenCow : Cow, Pumpkin
+    {
+        public HalloweenCow(String breed) : base(breed)
         {
-            Console.WriteLine("HalloweenCow is now Carved");
+
         }
 
-        public void Decompose()
+        public String Decompose()
         {
-            Console.WriteLine("HalloweenCow is now a lump of mush");
+            bool isDecomposed = false;
+            String decomposeStatus = "Not an amorphous blob yet";
+            if ((new Random()).Next() % 2 == 1) { isDecomposed = true; }
+            if (isDecomposed == true)
+            {
+                decomposeStatus = "amorphous blob";
+            }
+
+            return decomposeStatus;
+
         }
+
+        public String Carve { get; set; }
     }
 }
