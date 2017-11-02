@@ -2,6 +2,7 @@
  * A halloween-themed demostration of interfaces
  * Bill Nicholson 
  * nicholdw@ucmail.uc.edu
+ *  * edited by Bradley Bruce
  * *******************************************************/
 using System;
 using System.Collections.Generic;
